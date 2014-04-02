@@ -3,6 +3,117 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AddTopping" >
+    android:gravity="center"
+    tools:context=".AddTopping"
+    tools:ignore="HardcodedText" >
+
+    <Button
+        android:id="@+id/top_n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Next"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/top_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="Cancel"
+        android:textSize="30sp" />
+
+    <CheckBox
+        android:id="@+id/top_cb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="193dp"
+        android:layout_toRightOf="@+id/top_c"
+        android:text="Lettuce"
+        android:textSize="30sp" />
+
+    <CheckBox
+        android:id="@+id/top_cb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_cb1"
+        android:layout_marginLeft="66dp"
+        android:layout_toRightOf="@+id/top_c"
+        android:text="Tomatoes"
+        android:textSize="30sp" />
+
+    <CheckBox
+        android:id="@+id/top_cb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_cb2"
+        android:layout_marginLeft="66dp"
+        android:layout_toRightOf="@+id/top_c"
+        android:text="Onions"
+        android:textSize="30sp" />
+
+    <CheckBox
+        android:id="@+id/top_cb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_cb3"
+        android:layout_marginLeft="66dp"
+        android:layout_toRightOf="@+id/top_c"
+        android:text="Spinach"
+        android:textSize="30sp" />
+
+    <CheckBox
+        android:id="@+id/top_cb5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_cb4"
+        android:layout_marginLeft="66dp"
+        android:layout_toRightOf="@+id/top_c"
+        android:text="Red Peppers"
+        android:textSize="30sp" />
+
+    <CheckBox
+        android:id="@+id/top_cb6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_cb5"
+        android:layout_marginLeft="66dp"
+        android:layout_toRightOf="@+id/top_c"
+        android:text="Pickles"
+        android:textSize="30sp" />
+
+    <CheckBox
+        android:id="@+id/top_cb7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_cb6"
+        android:layout_marginLeft="66dp"
+        android:layout_toRightOf="@+id/top_c"
+        android:text="Mushrooms"
+        android:textSize="30sp" />
+
+    <CheckBox
+        android:id="@+id/top_cb8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_cb7"
+        android:layout_marginLeft="66dp"
+        android:layout_toRightOf="@+id/top_c"
+        android:text="Cheese"
+        android:textSize="30sp" />
+
+    <CheckBox
+        android:id="@+id/top_cb9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_cb8"
+        android:layout_marginLeft="66dp"
+        android:layout_toRightOf="@+id/top_c"
+        android:text="bacon"
+        android:textSize="30sp" />
 
 </RelativeLayout>

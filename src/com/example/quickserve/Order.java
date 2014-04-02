@@ -14,7 +14,8 @@ public class Order implements Serializable {
 	private String name;
 	private int numDrinks;
 	private ArrayList<String> sides;
-	private ArrayList<ArrayList<String>> burgers;
+	private ArrayList<String> burgers;
+	private ArrayList<String> toppings;
 	private boolean isCombo;
 	// constructor from name on order 
 	public Order(String name) {		
@@ -25,6 +26,10 @@ public class Order implements Serializable {
 	public Order() {		
 		
 		this.numDrinks =0;
+		this.isCombo = false;
+		this.sides = new ArrayList<String>();
+		this.burgers = new ArrayList<String>();
+		this.toppings = new ArrayList<String>();;
 	}
 
 	public String getName() {
@@ -51,16 +56,22 @@ public class Order implements Serializable {
 		this.sides.add(side);
 	}
 
-	public ArrayList<ArrayList<String>> getBurgers() {
+	public ArrayList<String> getBurgers() {
 		return burgers;
 	}
 
-	public void addBurger() {
-		burgers.add(new ArrayList<String>());		
+	public void addBurger(String type) {
+		burgers.add(type);		
 	}
 	
 	public void addTopping(String topping){
-		burgers.get(burgers.size()-1).add(topping);
+		toppings.add(topping);
+		
+	}
+	
+	public ArrayList<String> getToppings()
+	{
+		return this.toppings;
 	}
 
 	public boolean isCombo() {

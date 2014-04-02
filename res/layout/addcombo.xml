@@ -7,7 +7,7 @@
     tools:context=".AddCombo" >
 
     <LinearLayout
-        android:id="@+id/linear1"
+        android:id="@+id/linear2"
         style="?android:attr/buttonBarStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,7 +16,8 @@
         android:orientation="horizontal" >
 
         <Button
-            android:id="@+id/cancelm"
+            android:id="@+id/combo_c"
+            style="@android:style/Widget.Button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
@@ -25,16 +26,18 @@
             android:textSize="30sp" />
 
         <Button
-            android:id="@+id/reviewm"
+            android:id="@+id/combo_n"
+            style="@android:style/Widget.Button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Next"
             android:textSize="30sp" />
+
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/combo_tv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -45,17 +48,17 @@
         android:textSize="70sp" />
 
     <RadioGroup
-        android:id="@+id/radioGroup1"
+        android:id="@+id/combo_rg1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="false"
         android:layout_alignParentTop="false"
-        android:layout_below="@+id/textView1"
+        android:layout_below="@+id/combo_tv1"
         android:layout_centerHorizontal="true"
         android:paddingBottom="10dp" >
 
         <RadioButton
-            android:id="@+id/radio0"
+            android:id="@+id/combo_rg1_rb1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
@@ -64,14 +67,14 @@
             android:textSize="40sp" />
 
         <RadioButton
-            android:id="@+id/radio1"
+            android:id="@+id/combo_rg1_rb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1/2 lbs"
             android:textSize="40sp" />
 
         <RadioButton
-            android:id="@+id/radio2"
+            android:id="@+id/combo_rg1_rb3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1 lbs"
@@ -79,46 +82,44 @@
     </RadioGroup>
 
     <RadioGroup
-        android:id="@+id/radioGroup2"
+        android:id="@+id/combo_rg2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="false"
-        android:layout_below="@+id/textView2"
+        android:layout_below="@+id/combo_tv2"
         android:layout_centerHorizontal="true"
         android:paddingBottom="10dp" >
 
         <RadioButton
-            android:id="@+id/radio0"
+            android:id="@+id/combo_rg2_rb1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
             android:checked="true"
             android:text="Plain White"
             android:textSize="40sp" />
 
         <RadioButton
-            android:id="@+id/radio1"
+            android:id="@+id/combo_rg2_rb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
             android:text="Potato"
             android:textSize="40sp" />
 
         <RadioButton
-            android:id="@+id/radio2"
+            android:id="@+id/combo_rg2_rb3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:text="Pretzel Roll"
+            android:text="Pretzol Roll"
             android:textSize="40sp" />
+
     </RadioGroup>
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/combo_tv3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="false"
-        android:layout_below="@+id/radioGroup2"
+        android:layout_below="@+id/combo_rg2"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="5dp"
         android:text="Meat Type"
@@ -126,44 +127,42 @@
         android:textSize="70sp" />
 
     <RadioGroup
-        android:id="@+id/radioGroup3"
+        android:id="@+id/combo_rg3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="false"
-        android:layout_below="@+id/textView3"
+        android:layout_below="@+id/combo_tv3"
         android:layout_centerHorizontal="true" >
 
         <RadioButton
-            android:id="@+id/radio0"
+            android:id="@+id/combo_rg3_rb1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
             android:checked="true"
             android:text="Beef"
             android:textSize="40sp" />
 
         <RadioButton
-            android:id="@+id/radio1"
+            android:id="@+id/combo_rg3_rb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:text="Turkey"
+            android:text="Chicken"
             android:textSize="40sp" />
 
         <RadioButton
-            android:id="@+id/radio2"
+            android:id="@+id/combo_rg3_rb3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:text="Chicken"
+            android:text="turkey"
             android:textSize="40sp" />
+
     </RadioGroup>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/combo_tv2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/radioGroup1"
+        android:layout_below="@+id/combo_rg1"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="5dp"
         android:text="Bun Type"

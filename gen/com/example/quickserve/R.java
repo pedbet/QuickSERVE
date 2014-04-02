@@ -24,27 +24,55 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080014;
-        public static final int burger=0x7f080010;
-        public static final int cancelm=0x7f080005;
-        public static final int combo=0x7f08000f;
-        public static final int confirmm=0x7f080013;
-        public static final int drink=0x7f080012;
+        public static final int action_settings=0x7f080030;
+        public static final int addmain_b1=0x7f080016;
+        public static final int addmain_b2=0x7f080017;
+        public static final int addmain_b3=0x7f080018;
+        public static final int addmain_b4=0x7f080019;
+        public static final int addmaincancel=0x7f08001a;
+        public static final int addmainconfirmm=0x7f08001c;
+        public static final int addmainreview=0x7f08001b;
+        public static final int combo_c=0x7f080005;
+        public static final int combo_n=0x7f080006;
+        public static final int combo_rg1=0x7f080008;
+        public static final int combo_rg1_rb1=0x7f080009;
+        public static final int combo_rg1_rb2=0x7f08000a;
+        public static final int combo_rg1_rb3=0x7f08000b;
+        public static final int combo_rg2=0x7f08000c;
+        public static final int combo_rg2_rb1=0x7f08000e;
+        public static final int combo_rg2_rb2=0x7f08000f;
+        public static final int combo_rg2_rb3=0x7f080010;
+        public static final int combo_rg3=0x7f080012;
+        public static final int combo_rg3_rb1=0x7f080013;
+        public static final int combo_rg3_rb2=0x7f080014;
+        public static final int combo_rg3_rb3=0x7f080015;
+        public static final int combo_tv1=0x7f080007;
+        public static final int combo_tv2=0x7f08000d;
+        public static final int combo_tv3=0x7f080011;
+        public static final int cust_textview1=0x7f080000;
+        public static final int customer_b1=0x7f08002e;
         public static final int home_button1=0x7f080002;
         public static final int home_button2=0x7f080003;
         public static final int imageView1=0x7f080001;
-        public static final int linear1=0x7f080004;
-        public static final int radio0=0x7f080008;
-        public static final int radio1=0x7f080009;
-        public static final int radio2=0x7f08000a;
-        public static final int radioGroup1=0x7f080007;
-        public static final int radioGroup2=0x7f08000b;
-        public static final int radioGroup3=0x7f08000e;
-        public static final int reviewm=0x7f080006;
-        public static final int side=0x7f080011;
-        public static final int textView1=0x7f080000;
-        public static final int textView2=0x7f08000c;
-        public static final int textView3=0x7f08000d;
+        public static final int linear2=0x7f080004;
+        public static final int parsedtext=0x7f08002f;
+        public static final int sides_b1=0x7f080021;
+        public static final int sides_b2=0x7f080022;
+        public static final int sides_cb1=0x7f08001d;
+        public static final int sides_cb2=0x7f08001e;
+        public static final int sides_cb3=0x7f08001f;
+        public static final int sides_cb4=0x7f080020;
+        public static final int top_c=0x7f080024;
+        public static final int top_cb1=0x7f080025;
+        public static final int top_cb2=0x7f080026;
+        public static final int top_cb3=0x7f080027;
+        public static final int top_cb4=0x7f080028;
+        public static final int top_cb5=0x7f080029;
+        public static final int top_cb6=0x7f08002a;
+        public static final int top_cb7=0x7f08002b;
+        public static final int top_cb8=0x7f08002c;
+        public static final int top_cb9=0x7f08002d;
+        public static final int top_n=0x7f080023;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -53,6 +81,7 @@ public final class R {
         public static final int addsides=0x7f030003;
         public static final int addtopping=0x7f030004;
         public static final int customer=0x7f030005;
+        public static final int parseselected=0x7f030006;
     }
     public static final class menu {
         public static final int main=0x7f070000;
@@ -91,5 +120,6 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f060001;
+        public static final int addmain_button=0x7f060002;
     }
 }

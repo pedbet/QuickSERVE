@@ -11,56 +11,56 @@
     tools:context=".AddMain" >
 
     <Button
-        android:id="@+id/combo"
+        android:id="@+id/addmain_b1"
+        style="@style/addmain_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="126dp"
-        android:text="Add Combo"
-        android:textSize="50sp" />
+        android:text="Add Combo" />
 
     <Button
-        android:id="@+id/burger"
+        android:id="@+id/addmain_b2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/combo"
+        android:layout_below="@+id/addmain_b1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         android:text="Add Burger"
         android:textSize="50sp" />
 
     <Button
-        android:id="@+id/side"
+        android:id="@+id/addmain_b3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/burger"
+        android:layout_below="@+id/addmain_b2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         android:text="Add Side"
         android:textSize="50sp" />
 
     <Button
-        android:id="@+id/drink"
+        android:id="@+id/addmain_b4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/side"
+        android:layout_below="@+id/addmain_b3"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         android:text="Add Drink"
         android:textSize="50sp" />
 
     <LinearLayout
-        android:id="@+id/linear1"
+        android:id="@+id/linear2"
         style="?android:attr/buttonBarStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/drink"
         android:layout_alignParentBottom="true"
+        android:clickable="true"
         android:orientation="horizontal" >
 
         <Button
-            android:id="@+id/cancelm"
+            android:id="@+id/addmaincancel"
+            style="@android:style/Widget.Button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -68,23 +68,23 @@
             android:textSize="30sp" />
 
         <Button
-            android:id="@+id/reviewm"
+            android:id="@+id/addmainreview"
+            style="@android:style/Widget.Button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
             android:layout_weight="1"
             android:text="Review"
             android:textSize="30sp" />
 
         <Button
-            android:id="@+id/confirmm"
+            android:id="@+id/addmainconfirmm"
+            style="@android:style/Widget.Button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignRight="@+id/drink"
             android:layout_weight="1"
             android:text="Confirm"
             android:textSize="30sp" />
+
     </LinearLayout>
 
 </RelativeLayout>

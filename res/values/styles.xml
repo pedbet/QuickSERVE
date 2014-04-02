@@ -17,4 +17,8 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
+    <style name="addmain_button" parent="android:Widget.Button">
+        <item name="android:layout_marginTop">126dp</item>
+        <item name="android:textSize">50sp</item>
+    </style>
 </resources>

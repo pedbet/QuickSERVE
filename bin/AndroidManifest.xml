@@ -27,6 +27,7 @@
         <activity android:name="AddCombo" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
         <activity android:name="AddSides" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
         <activity android:name="AddTopping" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+        <activity android:name="ParseSelected" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
     </application>
 
 </manifest>

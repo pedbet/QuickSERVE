@@ -9,7 +9,7 @@
     tools:context=".MainActivity" >
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/cust_textview1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -22,7 +22,7 @@
         android:id="@+id/imageView1"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:layout_below="@+id/textView1"
+        android:layout_below="@+id/cust_textview1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="117dp"
         android:contentDescription="@string/home_logo"
@@ -36,7 +36,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="279dp"
         android:text="Enter Customer Mode"
-        android:textSize="40sp" />
+        android:textSize="40sp"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/home_button2"
@@ -46,6 +47,7 @@
         android:layout_below="@+id/home_button1"
         android:layout_marginTop="33dp"
         android:text="Admin Access"
-        android:textSize="40sp" />
+        android:textSize="40sp"
+        tools:ignore="HardcodedText" />
 
 </RelativeLayout>

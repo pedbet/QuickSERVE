@@ -12,7 +12,7 @@ public class Customer extends Activity{
 		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.customer);
-		final Button a = (Button) findViewById(R.id.combo);
+		final Button a = (Button) findViewById(R.id.customer_b1);
 		a.setOnClickListener(new View.OnClickListener() {
 			
 			@Override

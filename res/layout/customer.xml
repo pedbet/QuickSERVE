@@ -11,7 +11,7 @@
     tools:context=".Customer" >
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/cust_textview1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -22,16 +22,16 @@
         android:textSize="100sp" />
 
     <Button
-        android:id="@+id/combo"
+        android:id="@+id/customer_b1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_below="@+id/textView1"
+        android:layout_alignLeft="@+id/cust_textview1"
+        android:layout_below="@+id/cust_textview1"
         android:layout_marginTop="160dp"
         android:text="Begin Your Order"
         android:textSize="80sp" />
 
- >
+ 
     
 
 </RelativeLayout>
