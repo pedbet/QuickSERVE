@@ -51,13 +51,13 @@ public class AddSides extends Activity implements OnClickListener {
 		else if (v.getId() == R.id.sides_b2)
 		{			
 			if(fries.isChecked())
-				customerOrder.addTopping(fries.getText().toString());
+				customerOrder.addSide(fries.getText().toString());
 			if(mashed.isChecked())
-				customerOrder.addTopping(mashed.getText().toString());
+				customerOrder.addSide(mashed.getText().toString());
 			if(onion.isChecked())
-				customerOrder.addTopping(onion.getText().toString());
+				customerOrder.addSide(onion.getText().toString());
 			if(cole.isChecked())
-				customerOrder.addTopping(cole.getText().toString());
+				customerOrder.addSide(cole.getText().toString());
 			
 			Intent intent1 = new Intent(AddSides.this,ParseSelected.class);
 			intent1.putExtra("com.example.quickserve.Order.class", customerOrder);

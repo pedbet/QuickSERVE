@@ -17,6 +17,7 @@ public class ParseSelected extends Activity implements OnClickListener {
 	TextView text;
 	ArrayList<String> burgers;
 	ArrayList<String> toppings;
+	ArrayList<String> sides;
 	public void onCreate (Bundle savedInstanceState )
 	{
 		
@@ -29,8 +30,10 @@ public class ParseSelected extends Activity implements OnClickListener {
 		
 		burgers= customerOrder.getBurgers();
 		toppings= customerOrder.getToppings();
+		sides = customerOrder.getSides();
 		ListIterator<String> it = burgers.listIterator();
 		ListIterator<String> it2= toppings.listIterator();
+		ListIterator<String> it3 = sides.listIterator();
 		String a = "enditem";
 		while(!burgers.isEmpty())
 		{
@@ -58,7 +61,17 @@ public class ParseSelected extends Activity implements OnClickListener {
 				text.append(b);
 			}
 			
+			
 		}//end outter while
+		text.append("\n");
+		text.append("Sides: ");
+		while(!sides.isEmpty())
+		{
+			text.append(" ");//space
+			String c = it3.next();
+			it3.remove();
+			text.append(c);
+		}
 		
 	}
 

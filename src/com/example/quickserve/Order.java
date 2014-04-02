@@ -49,7 +49,7 @@ public class Order implements Serializable {
 	}
 
 	public ArrayList<String> getSides() {
-		return sides;
+		return this.sides;
 	}
 
 	public void addSide(String side) {
